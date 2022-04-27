@@ -53,6 +53,7 @@
 		BB494D032819C694003A455F /* TipsyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BB494D112819C6DE003A455F /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		BB494D162819C7BB003A455F /* TipManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipManager.swift; sourceTree = "<group>"; };
+		BB754F382819CDD000F1724B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 		BB494CD42819C692003A455F = {
 			isa = PBXGroup;
 			children = (
+				BB754F382819CDD000F1724B /* README.md */,
 				BB494CDF2819C692003A455F /* Tipsy */,
 				BB494CF62819C694003A455F /* TipsyTests */,
 				BB494D002819C694003A455F /* TipsyUITests */,
