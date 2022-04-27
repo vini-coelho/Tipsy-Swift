@@ -16,6 +16,8 @@
 		BB494CF82819C694003A455F /* TipsyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB494CF72819C694003A455F /* TipsyTests.swift */; };
 		BB494D022819C694003A455F /* TipsyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB494D012819C694003A455F /* TipsyUITests.swift */; };
 		BB494D042819C694003A455F /* TipsyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB494D032819C694003A455F /* TipsyUITestsLaunchTests.swift */; };
+		BB494D122819C6DE003A455F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB494D112819C6DE003A455F /* ResultViewController.swift */; };
+		BB494D172819C7BB003A455F /* TipManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB494D162819C7BB003A455F /* TipManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		BB494CFD2819C694003A455F /* TipsyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB494D012819C694003A455F /* TipsyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsyUITests.swift; sourceTree = "<group>"; };
 		BB494D032819C694003A455F /* TipsyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB494D112819C6DE003A455F /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		BB494D162819C7BB003A455F /* TipManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +103,10 @@
 		BB494CDF2819C692003A455F /* Tipsy */ = {
 			isa = PBXGroup;
 			children = (
-				BB494CE02819C692003A455F /* AppDelegate.swift */,
-				BB494CE22819C692003A455F /* SceneDelegate.swift */,
-				BB494CE42819C692003A455F /* ViewController.swift */,
-				BB494CE62819C692003A455F /* Main.storyboard */,
-				BB494CE92819C694003A455F /* Assets.xcassets */,
-				BB494CEB2819C694003A455F /* LaunchScreen.storyboard */,
+				BB494D152819C7A7003A455F /* Model */,
+				BB494D102819C6BB003A455F /* Controller */,
+				BB494D132819C743003A455F /* View */,
+				BB494D142819C793003A455F /* SupportingFiles */,
 				BB494CEE2819C694003A455F /* Info.plist */,
 			);
 			path = Tipsy;
@@ -125,6 +127,42 @@
 				BB494D032819C694003A455F /* TipsyUITestsLaunchTests.swift */,
 			);
 			path = TipsyUITests;
+			sourceTree = "<group>";
+		};
+		BB494D102819C6BB003A455F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BB494CE42819C692003A455F /* ViewController.swift */,
+				BB494D112819C6DE003A455F /* ResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BB494D132819C743003A455F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BB494CE62819C692003A455F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB494D142819C793003A455F /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BB494CE02819C692003A455F /* AppDelegate.swift */,
+				BB494CE22819C692003A455F /* SceneDelegate.swift */,
+				BB494CE92819C694003A455F /* Assets.xcassets */,
+				BB494CEB2819C694003A455F /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		BB494D152819C7A7003A455F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB494D162819C7BB003A455F /* TipManager.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB494D172819C7BB003A455F /* TipManager.swift in Sources */,
 				BB494CE52819C692003A455F /* ViewController.swift in Sources */,
 				BB494CE12819C692003A455F /* AppDelegate.swift in Sources */,
 				BB494CE32819C692003A455F /* SceneDelegate.swift in Sources */,
+				BB494D122819C6DE003A455F /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
