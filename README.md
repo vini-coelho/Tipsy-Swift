@@ -12,21 +12,24 @@
 
 ## :rocket: Technologies
 
-This project was developed in Rocketseat's Ignite Bootcamp, using the following technologies:
+This project was developed as a challenge in *"iOS & Swift - The Complete iOS App Development Bootcamp"*, using the following technologies:
 
 -  [Swift](swift)
 -  [XCode](xc)
 
+The code was built using programming best practices and conforming to **MVC (Model-View-Controller)** design pattern.
+
 ## :information_source: How To Use
 
-To clone and run this application, you'll need MacOS with [Xcode](xc) installed. You can either use Xcode's interface to clone the project or run the following commands from your terminal:
+1. To clone and run this application, you'll need MacOS with [Xcode](xc) installed. You can either use Xcode's interface to clone the project or run the following commands from your terminal:
 
 ```bash
 # Clone this repository
 $ git clone git@github.com:vini-coelho/Tipsy-Swift.git
 ```
 
-Double click `Tipsy.xcodeproj` from Finder or search it from `File -> Open` in Xcode's UI.
+2. Double click `Tipsy.xcodeproj` from Finder or search it from `File -> Open` in Xcode's UI.
+3. Select an iOS device and run `⌘ + R` to build and run the application.
 
 ## :memo: License
 
